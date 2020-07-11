@@ -1,0 +1,103 @@
+body{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.9);
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+}
+
+* {
+  box-sizing: border-box;
+    text-align: center;
+} 
+
+#title{
+    color: whitesmoke;
+    text-align: center;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+    font-weight: 500;
+    text-transform: capitalize; 
+    font-size: 6vw;
+}
+
+.subtitle{
+    color: coral;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+}
+
+h2{
+    color: coral;
+    letter-spacing: 1px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#contact-us{
+    color: coral;
+    font-size:40px;
+    letter-spacing: 3px;
+}
+
+li:nth-child(odd){
+    color: blueviolet;
+}
+li:nth-child(even){
+    color: darkorange;
+}
+#link{
+    font-size: 20px;
+}
+
+#link:link {
+    color:aqua;
+}
+
+#link:visited {
+    color:red;
+}
+p{
+    color:aliceblue;
+    text-align: justify;
+}
+
+p + img  {
+    margin-top: 50px;
+}
+
+
+img[src*="C:/Users/sony/Downloads"] {
+    border-radius: 10px;  
+    display: block;
+    margin-left: auto ;
+    margin-right: auto;
+    margin-bottom: 10px;
+    height: 40vh;
+    width: 70vw;
+    max-width: 500px;
+}
+
+/*img[src*="https://source.unsplash.com/400x400/?apps"]:hover {
+    
+}*/
+
+.box-container{
+    background-color:transparent;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+
+.box-container-item{
+    background-color: chartreuse;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    width: 70px;
+    line-height: 50px;
+    margin: 10px;
+    width: 23%;
+    border-radius: 5px;
+}
