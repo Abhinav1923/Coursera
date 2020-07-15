@@ -1,0 +1,117 @@
+body{
+	margin: 0;
+	padding:0;
+	font-family: 'Leckerli One', cursive; 
+	background-image: url('https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+*{
+	box-sizing: border-box;
+	text-align: center;
+}
+
+h1{
+	text-align: center;
+	font-size: 5vw; 
+	background-color:#30F2A6; 
+	padding: 5px;
+	width:25%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+}
+
+.section1 {
+  float: left;
+  width: 32.33%;
+  margin: 5px;
+  position: relative;
+  padding: 10px;
+  border: 1px solid black;
+  height: 300px;
+  background-color: #ccc;
+  border-radius:0px 20px;
+}
+
+.section2 {
+  float: left;
+  width: 32.33%;
+  margin: 5px;
+  position: relative;
+  padding: 10px;
+  border: 1px solid black;
+  height: 300px;
+  background-color: #ccc;
+  border-radius:0px 20px;
+
+}
+.section3 {
+  float: left;
+  width: 32.33%;
+  margin: 5px;
+  position: relative;
+  padding: 10px;
+  border: 1px solid black;
+  height: 300px;
+  background-color: #ccc;
+  border-radius:0px 20px;
+
+}
+.title-box{
+	position: absolute;
+	top: 2px;
+	right: 2px;
+	border: 1px solid black;
+	margin-top: 0px;
+	padding: 10px;
+	overflow: hidden;
+	background-color: salmon;
+	border-radius: 20px;
+}
+
+p{
+	margin-top: 20%;
+	font-size: 20px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+footer{
+	position: fixed;
+  	right: 0;
+  	bottom: 0;
+  	width: 100%;
+  	text-align: right;
+  	background-color: white;
+  	padding: 5px;
+}
+
+@media screen and (min-width:  768px) and (max-width: 991px) {
+  .section1 {
+  	width: 48.5%;
+  }
+  .section2{
+    width: 48.5%;
+  }
+  .section3{
+  	width: 99%;
+  }
+}
+
+@media screen and (max-width:  767px){
+  .section1 {
+  	width: 100%;
+  }
+  .section2{
+    width: 100%;
+  }
+  .section3{
+  	width: 100%;
+  }
+}
